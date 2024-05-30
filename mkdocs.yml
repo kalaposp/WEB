@@ -1,0 +1,71 @@
+site_name: qualiton
+site_url: https://example.com/
+theme:
+  name: material
+  palette:
+    primary: white
+    accent: blue
+  font:
+    text: Inter
+  features:
+    # - navigation.sections
+    # - toc.integrate
+    # - header.autohide
+    # - navigation.tabs
+    # - navigation.indexes
+    # - navigation.path
+  logo: assets/logo.svg
+  #logo: assets/qualiton-stainless-steel-logo.svg
+  #logo: assets/qualiton logo black.svg
+  favicon: images/favicon.svg
+nav:
+    #- Home: index.md
+    - 'Brand': 
+      #- 'About': 'about.md'
+      - 'Philosophy': 'philosophy.md'
+      - 'Our Story': 'story.md'
+      - 'Technology': 'technology.md'
+      - 'News': 'news.md'
+      - 'Reviews': 'reviews.md'
+      #- 'Blog': 'blog.md'
+    - 'Products':
+      - 'Integrated Amplifiers':
+        - '300B': '300b.md'
+        - 'A35': 'a35.md'
+        - 'A75': 'a75.md'
+        - 'X200': 'x200.md'
+      - 'Amplifiers':
+        - 'P200': 'p200.md'
+      - 'Preamplifiers':
+        - 'C200': 'c200.md'
+        - 'Phono': 'phono.md'
+    - 'Dealers': 'dealers.md'
+    - 'Support':
+      - 'Manuals': #'manuals.md'
+        - '300B': '300b_manual.md' 
+      - 'Product Registration': 'registration.md'
+      - 'Legacy Products': 'legacy.md'
+      - 'Service Repair': 'service.md'
+      - 'FAQs': 'faqs.md'
+      - 'Contact Us': 'contact.md'
+extra_javascript:
+  - javascripts/shortcuts.js
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+extra_css:
+  - stylesheets/extra.css
+extra:
+#   generator: false
+  social:
+    - icon: fontawesome/brands/instagram 
+      link: https://www.instagram.com/qualiton_official/
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/audiohungary/?locale=hu_HU
+copyright: Copyright &copy; 2024 Audio-Hungary Kft.
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - toc:
+      toc_depth: 2
+  - attr_list
