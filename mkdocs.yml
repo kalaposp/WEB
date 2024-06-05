@@ -43,7 +43,7 @@ nav:
     - 'Support':
       - 'Manuals': #'manuals.md'
         - '300B': '300b_manual.md' 
-      - 'Product Registration': 'registration.md'
+      #- 'Product Registration': 'registration.md'
       - 'Legacy Products': 'legacy.md'
       - 'Service Repair': 'service.md'
       - 'FAQs': 'faqs.md'
@@ -69,3 +69,5 @@ markdown_extensions:
   - toc:
       toc_depth: 2
   - attr_list
+plugins:
+  - glightbox

@@ -53,7 +53,16 @@
     
     
     
-  </head>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -113,39 +122,6 @@
     </div>
     
     
-    
-      <label class="md-header__button md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
-      <label class="md-search__icon md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-      </label>
-      <nav class="md-search__options" aria-label="Search">
-        
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
-        </button>
-      </nav>
-      
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            Initializing search
-          </div>
-          <ol class="md-search-result__list" role="presentation"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
     
     
   </nav>
@@ -868,30 +844,30 @@
 
 
 <h1 id="300b-integrated-amplifier">300B Integrated Amplifier</h1>
-<p><center><img alt="a50i_rounded" src="../images/a50i_rounded.png" /></center></p>
+<p><center><a class="glightbox" href="../images/a50i_rounded.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="a50i_rounded" src="../images/a50i_rounded.png" /></a></center></p>
 <h2 id="overview">Overview</h2>
 <p>The Qualiton 300B is an integrated stereo amplifier with 2 x 25 Watts output power, built around the captivating sound character of 300B power tubes. This amplifier harmoniously blends our classic heritage with modern details: it features refined vacuum tube circuits, which we have enhanced with several additional functionalities. In shaping the overall sound character, our primary goal was to move away from the pronounced coloration often associated with amplifiers utilizing the 300B tube. Instead, we envisioned a smooth, musical and balanced vacuum tube amplifier that excels across the entire audio frequency range.</p>
 <h2 id="technology">Technology</h2>
 <h3 id="powered-by-300b">Powered by 300B</h3>
-<p><center><img alt="" src="../images/dummy_wide.png" /></center></p>
+<p><center><a class="glightbox" href="../images/dummy_wide.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/dummy_wide.png" /></a></center></p>
 <p>The 300B is a directly heated power triode that hardly needs an introduction. Originally developed by Western Electric in the mid-1930s for amplifying audio in movie theaters, it later became a favorite among audiophiles and one of the most successful vacuum tubes in history. Its outstanding sonic properties led us to name our top-of-the-line integrated amplifier after this phenomenal power tube. Its high linearity and low distortion serve as the perfect basis for the amplifier's power block, in which we combine it with our own custom output transformer for excellent low and high frequency behavior. Additionally, we have integrated the newest iteration of our Automatic Bias System for continuous and precise control of the quiescent currents, providing a seamless user experience.</p>
 <h3 id="custom-output-transformers">Custom Output Transformers</h3>
-<p><center><img src="dummy_wide.png" width="auto"/></center></p>
+<p><center><a class="glightbox" href="dummy_wide.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="dummy_wide.png" width="auto"/></a></center></p>
 <p>The transformers of our amplifiers are custom-designed and built in our in-house transformer workshop. Our output transformers are constructed using high-permeability, large cross-section toroidal magnetic cores, which undergo initial impregnation during the production process. Following this, the winding process begins, utilizing a multi-layered, sectioned, and specially arranged winding configuration. This meticulous design ensures optimal performance across both low and high frequencies. Once the winding is complete, the transformers are encased in metal shielding cans to minimize electromagnetic interference. Finally, they are potted using an epoxy compound to eliminate mechanical vibrations and associated noises.</p>
 <h3 id="custom-power-transformer">Custom Power Transformer</h3>
-<p><center><img alt="" src="../images/dummy_wide.png" /></center></p>
+<p><center><a class="glightbox" href="../images/dummy_wide.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/dummy_wide.png" /></a></center></p>
 <p>Just like our output transformers, our power transformers are also custom-designed and built in our in-house transformer workshop. We manufacture them with the same precision and attention to details: the high-permeability, large cross-section toroidal cores are also impregnated, and then the winding process follows. The parameters of the windings are designed to avoid saturation of the magnetic core and to ensure efficient operation even under heavy load conditions. It is important to note that we use double electromagnetic shielding for our power transformers. Finally, we employ the same epoxy compound used to pot the output transformers to eliminate mechanical vibrations and associated noises.</p>
 <h3 id="automatic-bias-system">Automatic Bias System</h3>
-<p><center><img alt="" src="../images/dummy_wide.png" /></center></p>
+<p><center><a class="glightbox" href="../images/dummy_wide.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/dummy_wide.png" /></a></center></p>
 <p>This circuit continuously monitors the behavior of each tube and regulates the bias voltages accordingly, ensuring the smallest possible output voltage noise while guaranteeing the highest degree of linearity of the output stage. Additionally, it prevents the sensitive, high-permeability output transformer cores from saturating by precisely equalizing the quiescent currents of the power tubes. Furthermore, the bias system incorporates a built-in soft-start function, which prevents the tubes from drawing excessive current during start-up and eliminates pops and noises. The result is that no further adjustment is required once the electron tubes supplied with the unit have been installed; the Automatic Bias System takes care of everything.</p>
 <h3 id="filament-soft-start">Filament Soft-Start</h3>
-<p><center><img alt="" src="../images/dummy_wide.png" /></center></p>
+<p><center><a class="glightbox" href="../images/dummy_wide.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/dummy_wide.png" /></a></center></p>
 <p>To significantly extend the lifetime of the power tubes, we have implemented the Filament Soft-Start feature, which limits the current flowing through the heating filaments to a safe level during start-up when the tubes are cold. The transient current of a 300B's cold filament can exceed eight times the nominal heating current, which poses a risk of damaging the expensive power tubes in a short time. Therefore, each of the filaments of the 300B's is fed from its own stabilized DC power supply, and the soft-start circuit ensures that the transient current in each filament remains well below 2 Amperes throughout start-up, providing sufficient protection for the tubes.</p>
 <h3 id="highly-optimized-layout">Highly Optimized Layout</h3>
-<p><center><img alt="" src="../images/dummy_wide.png" /></center></p>
+<p><center><a class="glightbox" href="../images/dummy_wide.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/dummy_wide.png" /></a></center></p>
 <p>During the design phase, a significant amount of engineering time was devoted to the layout details of the whole integrated amplifier. Our top priority was to maximize the signal-to-noise ratio and completely eliminate mains related signal components from the audio frequency spectrum. To achieve this, we separated the audio circuits as much as possible from the power supplies that cause the most electromagnetic interference. Additionally, we repackaged a substantial portion of the internal structure of the amplifier. By utilizing our highest-quality printed circuit boards, we have created a modular, robust, and high-performance layout.</p>
 <h3 id="pragmatic-audio-design">Pragmatic Audio Design</h3>
-<p><center><img alt="" src="../images/dummy_wide.png" /></center></p>
+<p><center><a class="glightbox" href="../images/dummy_wide.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/dummy_wide.png" /></a></center></p>
 <p>In terms of audio design, we firmly believe that:</p>
 <ul>
 <li>A really good tube amplifier should be compatible with as many loudspeakers as possible.</li>
@@ -903,32 +879,32 @@
 </ul>
 <p>In the preamplifier and driver sections, the 12AX7 and 12AT7 tubes play a crucial role in achieving these goals. Furthermore, their DC-stabilized filament supply and circuits with low offset and stable DC operating points ensure resilience against parameter variations.</p>
 <h3 id="relay-controlled-input-selection">Relay-Controlled Input Selection</h3>
-<p><center><img alt="" src="../images/dummy_wide.png" /></center></p>
+<p><center><a class="glightbox" href="../images/dummy_wide.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/dummy_wide.png" /></a></center></p>
 <p>The amplifier features a total of five analog inputs: four unbalanced and one balanced. Selection between these inputs is accomplished using precision, low-power, ultra-miniature Japanese relays with ultra-low contact resistance gold overlay silver contacts, all of which are controlled by a microprocessor. The front panel Status Display indicates the currently active or inactive inputs.</p>
 <h3 id="relay-controlled-volume">Relay-Controlled Volume</h3>
-<p><center><img alt="" src="../images/dummy_wide.png" /></center></p>
+<p><center><a class="glightbox" href="../images/dummy_wide.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/dummy_wide.png" /></a></center></p>
 <p>Our 100-step relay-controlled stereo attenuator features 25 microprocessor-controlled signal relays that switch a total of 48 precision metal film resistors. Programmed with a custom attenuating characteristic, it enables fine adjustments across the entire operating range of the volume control. At position 0, it is completely muted. The stereo tracking is exceptionally accurate. The signal relays are precision Japanese-made low-power types, featuring ultra-low contact resistance gold-plated contacts.</p>
 <h3 id="multifunction-control-knob">Multifunction Control Knob</h3>
-<p><center><img alt="" src="../images/dummy_wide.png" /></center></p>
+<p><center><a class="glightbox" href="../images/dummy_wide.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/dummy_wide.png" /></a></center></p>
 <p>We have updated our front panel rotary knob, which now serves multiple functions. In addition to adjusting the volume, it can power the device on and off from stand-by mode. Furthermore, when the amplifier is active, it also acts as an Input Selector.</p>
 <h3 id="remote-control">Remote Control</h3>
-<p><center><img alt="" src="../images/dummy_wide.png" /></center></p>
+<p><center><a class="glightbox" href="../images/dummy_wide.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/dummy_wide.png" /></a></center></p>
 <p>The remote control features a black anodized aluminum finish. Alongside the basic VOLUME UP and VOLUME DOWN functions, it also includes a convenient MUTE function. You can power the device on and off from stand-by mode using the POWER button. When the amplifier is active, this same POWER button also functions as an Input Selector. To return the amplifier to stand-by mode, simply long-press the POWER button. Additionally, the remote control allows you to fine-tune the brightness of the status display, with three preset levels to choose from. You can access the brightness control menu by long-pressing the MUTE button.</p>
 <h3 id="status-display">Status Display</h3>
-<p><center><img alt="" src="../images/dummy_wide.png" /></center></p>
+<p><center><a class="glightbox" href="../images/dummy_wide.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/dummy_wide.png" /></a></center></p>
 <p>The microprocessor-based Input Selector and Volume Control System features a Status Display. The display material is scratch-resistant smoked plexiglass. By default, the top section of the Status Display indicates the volume value. During user action, the display becomes more intense, and then it dims to a lower brightness after a few seconds. Users have the option to select from three preset brightness levels. The stand-by mode's red LED is located in the lower section of the Status Display.</p>
 <h3 id="aesthetics">Aesthetics</h3>
-<p><center><img alt="" src="../images/dummy_wide.png" /></center></p>
+<p><center><a class="glightbox" href="../images/dummy_wide.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/dummy_wide.png" /></a></center></p>
 <p>Our approach to the visual design centers around maintaining visual neutrality. We intentionally avoid overdesigning the appearance, aiming for aesthetic simplicity and cleanliness. Our products are not meant to be theatrical or ostentatious; rather, they seamlessly integrate into the audio system's interior without disrupting the user experience. However, we add unique touches, such as the chassis folded back at a 45-degree angle, a stainless steel logo badge, a custom rotary knob, or simply the sight of the gourgeous-looking vacuum tubes.</p>
 <h3 id="protective-features">Protective Features</h3>
-<p><center><img alt="" src="../images/dummy_wide.png" /></center></p>
+<p><center><a class="glightbox" href="../images/dummy_wide.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/dummy_wide.png" /></a></center></p>
 <ul>
 <li>The amplifier is equipped with a practical protective cover that serves a dual purpose: it shields the vacuum tubes from physical damage and protects the user from the tubes’ hot surface.</li>
 <li>Furthermore, we have implemented mechanical protection on the vacuum tube sockets, preventing the expensive power tubes from being damaged due to possible incorrect installation.</li>
 <li>The amplifier’s turn-on and turn-off sequencing circuit is designed to eliminate any unwanted pops and noises. The circuit ensures that the speakers are only connected to the outputs after the start-up time has elapsed. It actively monitors the presence of mains voltage, and if it detects an absence, it swiftly disconnects the loudspeakers from the output terminals. When turning off the amplifier, it disconnects the speakers first. This thoughtful design enhances the overall user experience and protects your audio equipment.</li>
 </ul>
 <h3 id="special-components">Special Components</h3>
-<p><center><img alt="" src="../images/dummy_wide.png" /></center></p>
+<p><center><a class="glightbox" href="../images/dummy_wide.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/dummy_wide.png" /></a></center></p>
 <ul>
 <li><strong>Tested and Selected Vacuum Tubes:</strong><br />
 The power tubes in all our amplifiers come in matched quads. The preamp tubes are selected for low noise, symmetry and minimum distortion.</li>
@@ -1145,15 +1121,15 @@ Mains Filtering  </p>
 </table>
 <h2 id="measurements">Measurements</h2>
 <h3 id="frequency-response">Frequency Response</h3>
-<p><center><img alt="" src="../images/dummy_wide.png" /></center></p>
+<p><center><a class="glightbox" href="../images/dummy_wide.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/dummy_wide.png" /></a></center></p>
 <h3 id="thdn-vs-frequency">THD+N vs. Frequency</h3>
-<p><center><img alt="" src="../images/dummy_wide.png" /></center></p>
+<p><center><a class="glightbox" href="../images/dummy_wide.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/dummy_wide.png" /></a></center></p>
 <h3 id="thdn-vs-output-level">THD+N vs. Output Level</h3>
-<p><center><img alt="" src="../images/dummy_wide.png" /></center></p>
+<p><center><a class="glightbox" href="../images/dummy_wide.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/dummy_wide.png" /></a></center></p>
 <h3 id="noise-floor">Noise Floor</h3>
-<p><center><img alt="" src="../images/dummy_wide.png" /></center></p>
+<p><center><a class="glightbox" href="../images/dummy_wide.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/dummy_wide.png" /></a></center></p>
 <h3 id="transient-response">Transient Response</h3>
-<p><center><img alt="" src="../images/dummy_wide.png" /></center></p>
+<p><center><a class="glightbox" href="../images/dummy_wide.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/dummy_wide.png" /></a></center></p>
 <h2 id="downloads">Downloads</h2>
 <ul>
 <li><a download="qualiton_300B_user's_manual" href="../pdfs/dummy.pdf">300B User's Manual</a></li>
@@ -1254,5 +1230,7 @@ Mains Filtering  </p>
         <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>
