@@ -88,3 +88,43 @@
 .md-nav--secondary .md-nav__title {
   display: none;
 }
+
+/*---------------------------------------------------------------------------*/
+
+.md-header--shadow {
+  box-shadow: 0 0 0rem #0000001a, 0 0rem 0rem #0003;
+  transition: transform .25s cubic-bezier(.1,.7,.1,1), box-shadow .25s;
+}
+
+.md-header {
+  background-color: #ffffffe5;
+  border-top-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-style: solid;
+  border-color: rgb(220, 220, 220);
+}
+
+.md-footer-meta {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.md-footer {
+  background-color: rgb(245, 245, 245);
+  color: var(--md-footer-fg-color);
+  border-top-width: 1px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-style: solid;
+  border-color: rgb(220, 220, 220);
+}
+
+.md-copyright__highlight {
+  color: rgb(128, 128, 128);
+}
+
+html .md-footer-meta.md-typeset a {
+  color: rgb(128, 128, 128);
+}

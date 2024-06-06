@@ -56,7 +56,7 @@ extra_javascript:
 extra_css:
   - stylesheets/extra.css
 extra:
-#   generator: false
+  generator: false
   social:
     - icon: fontawesome/brands/instagram 
       link: https://www.instagram.com/qualiton_official/
