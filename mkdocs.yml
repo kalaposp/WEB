@@ -14,7 +14,7 @@ theme:
     # - navigation.tabs
     # - navigation.indexes
     # - navigation.path
-  logo: assets/logo.svg
+  logo: assets/logo_resized.svg
   #logo: assets/qualiton-stainless-steel-logo.svg
   #logo: assets/qualiton logo black.svg
   favicon: images/favicon.svg
